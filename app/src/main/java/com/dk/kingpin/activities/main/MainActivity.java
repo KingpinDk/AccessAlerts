@@ -20,7 +20,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
-import com.dk.kingpin.BuildConfig;
 import com.dk.kingpin.R;
 import com.dk.kingpin.activities.log.LogsActivity;
 import com.dk.kingpin.databinding.ActivityMainBinding;
@@ -29,6 +28,7 @@ import com.dk.kingpin.service.DotService;
 import com.dk.kingpin.util.Utils;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.snackbar.Snackbar;
+import com.google.firebase.BuildConfig;
 
 
 public class MainActivity extends AppCompatActivity {
